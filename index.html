@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca de mi</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Acerca de mi</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#acerca_de_mi">Acerca de mi</a></li>
+                <li><a href="#educacion">Educacion</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#formulario">Contactame</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="acerca_de_mi">
+        <h2>Acerca de mi</h2>
+        <p>Mi nombre es Mauricio. Soy un apasionado del desarrollo Web.</p>
+        <img src="./multimedia/diseno_sitio_web.jpg" alt="">
+    </section>
+
+    <section id="educacion">
+        <h2>Educacion</h2>
+        <ul>
+            <li>Escuela de Educacion Tecnica n 2 - Secundario</li>
+            <li>Curso Desarrollo Web/Frontend React- Coderhouse</li>
+            <li>Curso Desarrollo Web/Frontend React - UTN</li>
+        </ul>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>C</li>
+            <li>JavaScript Basico</li>
+            <li>Python Basico</li>
+        </ul>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre del proyecto</th>
+                    <th>Fecha</th>
+                    <th>Lenguajes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Proyecto 1</td>
+                    <td>2022</td>
+                    <td>Python</td>
+                </tr>
+                <tr>
+                    <td>Proyecto 2</td>
+                    <td>2023</td>
+                    <td>HTML, CSS, JavaScript</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <address>
+            Correo electronico:<a href="mailto:maurimaldonado6@gmail.com">maurimaldonado6@gmail.com</a><br>
+            Telefono:<a href="tel:+5493884765880">+54 9 3884765880</a>
+        </address>
+    </section>
+    
+    <section id="formulario">
+        <h2>Contactame</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre">
+            <br><br>
+
+            <label for="correo">Correo electronico:</label>
+            <input type="email" id="correo" name="correo">
+            <br><br>
+
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto">
+            <br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea name="mensaje" id="mensaje" cols="50" rows="4"></textarea>
+            <br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023, Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
